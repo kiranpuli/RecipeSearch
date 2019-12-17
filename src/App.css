@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  width: 60%;
+  margin-bottom: 10%; /* Added */
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  transition: transform .5s; /* Animation */
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.zoom:hover {
+  transform: scale(1.10); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.jumbotron{
+  background-image: url(./bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.results{
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
