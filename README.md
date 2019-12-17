@@ -1,4 +1,4 @@
-#Recipe Search
+# Recipe Search
 Simple search application to fetch data from an _api_ and organizing them
 
 ### Tools used
