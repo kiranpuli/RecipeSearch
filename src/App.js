@@ -42,7 +42,7 @@ class App extends React.Component {
         <input type="text" className="form-control col-sm-7 mr-1" onChange={this.handleSearch} placeholder="Search for your favourite food"></input>
         <button onClick={this.handleSubmit}  className="btn btn-danger btn-sm col-sm-3 ml-1">Get Recipe</button>
         </form>
-        <p className="lead"><a href="#" className="btn btn-info">CODE</a> available on github</p>
+        <p className="lead"><a href="https://github.com/kiranpuli/RecipeSearch/" className="btn btn-info">CODE</a> available on github</p>
         </div>
         <div className="container-fluid results p-3">
           
