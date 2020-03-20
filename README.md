@@ -1,5 +1,5 @@
 # Recipe Search
-Simple search application to fetch data from an _api_ and organizing them
+Simple search tool for recipes
 
 ### Tools used
 * HTML
